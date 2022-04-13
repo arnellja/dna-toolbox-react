@@ -1,0 +1,127 @@
+html {
+    height: 100%;
+}
+
+img {
+    max-width: 500px;
+    height: auto;
+    border-radius: 25px;
+}
+
+.fullBackground {
+    background-color: black;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+@media screen and (min-height: 1000px) {
+   .fullBackground {
+       bottom: 0
+   }
+}
+
+.fullBackgroundHome {
+    background-color: black;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+@media screen and (min-height: 1200px) {
+   .fullBackgroundHome {
+       bottom: 0
+   }
+}
+
+.container {
+    width: 80%;
+    margin-left: 10%;
+    padding-top: 100px;
+}
+
+.leftColumn {
+    width: 50%;
+}
+
+.rightColumn {
+    margin-left: 50px;
+    width: 50%;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+}
+
+p {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+footer {
+    background-color: lightgrey;
+    text-align: center;
+    color: gray;
+    position: relative;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+@media screen and (min-height: 1000px) {
+    footer {
+        bottom: 0;
+        position: absolute;
+    }
+}
+
+.homeFooter {
+    background-color: lightgrey;
+    text-align: center;
+    color: gray;
+    position: relative;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+@media screen and (min-height: 1200px) {
+    .homeFooter {
+        bottom: 0;
+        position: absolute;
+    }
+}
+
+.nucImage {
+    width: 300px;
+    height: auto;
+
+}
+
+.transImage {
+    width: 300px;
+    height: auto;
+}
+
+textarea {
+    width: 500px;
+    height: auto;
+}
+
+.submitBtn {
+    width: 100px;
+    color: black;
+    background-color: #10A5F5;
+}
+
+.submitBtn:hover {
+    transition: all 0.2s ease-in-out;
+    background-color: white;
+    color: black;
+}
